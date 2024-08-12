@@ -1,8 +1,7 @@
 <p align="left">
-        <a href="README_CN.md">中文</a> &nbsp｜ &nbsp English&nbsp&nbsp
+        中文</a>&nbsp ｜ &nbsp<a href="README.md">English</a>
 </p>
 <br><br>
-
 
 <p align="center">
     <img src="assets/audio_logo.jpg" width="400"/>
@@ -12,7 +11,7 @@
 <p align="center">
         Qwen-Audio <a href="https://www.modelscope.cn/models/qwen/QWen-Audio/summary">🤖 <a> | <a href="https://huggingface.co/Qwen/Qwen-Audio">🤗</a>&nbsp ｜ Qwen-Audio-Chat <a href="https://www.modelscope.cn/models/qwen/QWen-Audio-Chat/summary">🤖 <a>| <a href="https://huggingface.co/Qwen/Qwen-Audio-Chat">🤗</a>&nbsp | &nbsp&nbsp Demo<a href="https://modelscope.cn/studios/qwen/Qwen-Audio-Chat-Demo/summary"> 🤖</a> | <a href="https://huggingface.co/spaces/Qwen/Qwen-Audio">🤗</a>&nbsp
 <br>
-&nbsp&nbsp<a href="https://qwen-audio.github.io/Qwen-Audio/">Homepage</a>&nbsp ｜ &nbsp&nbsp<a href="http://arxiv.org/abs/2311.07919">Paper</a>&nbsp&nbsp | &nbsp&nbsp&nbsp<a href="https://github.com/QwenLM/Qwen/blob/main/assets/wechat.png">WeChat</a>&nbsp&nbsp | &nbsp&nbsp<a href="https://discord.gg/CV4E9rpNSD">Discord</a>&nbsp&nbsp</a>
+&nbsp&nbsp<a href="https://qwen-audio.github.io/Qwen-Audio/">Homepage</a>&nbsp ｜ &nbsp&nbsp<a href="http://arxiv.org/abs/2311.07919">Paper</a>&nbsp&nbsp | &nbsp&nbsp&nbsp<a href="https://github.com/QwenLM/Qwen/blob/main/assets/wechat.png">WeChat</a>&nbsp&nbsp | &nbsp&nbsp<a href="https://discord.gg/z3GAxXZ9Ce">Discord</a>&nbsp&nbsp</a>
 </p>
 <br><br>
 
@@ -21,19 +20,19 @@
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/qwen-audio-advancing-universal-audio/speech-recognition-on-aishell-2-test-ios)](https://paperswithcode.com/sota/speech-recognition-on-aishell-2-test-ios?p=qwen-audio-advancing-universal-audio)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/qwen-audio-advancing-universal-audio/speech-recognition-on-aishell-2-test-mic-1)](https://paperswithcode.com/sota/speech-recognition-on-aishell-2-test-mic-1?p=qwen-audio-advancing-universal-audio)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/qwen-audio-advancing-universal-audio/acoustic-scene-classification-on-cochlscene)](https://paperswithcode.com/sota/acoustic-scene-classification-on-cochlscene?p=qwen-audio-advancing-universal-audio)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/qwen-audio-advancing-universal-audio/acoustic-scene-classification-on-tut-acoustic)](https://paperswithcode.com/sota/acoustic-scene-classification-on-tut-acoustic?p=qwen-audio-advancing-universal-audio) <br>
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/qwen-audio-advancing-universal-audio/acoustic-scene-classification-on-tut-acoustic)](https://paperswithcode.com/sota/acoustic-scene-classification-on-tut-acoustic?p=qwen-audio-advancing-universal-audio)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/qwen-audio-advancing-universal-audio/audio-classification-on-vocalsound)](https://paperswithcode.com/sota/audio-classification-on-vocalsound?p=qwen-audio-advancing-universal-audio) <br>
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/qwen-audio-advancing-universal-audio/audio-captioning-on-clotho)](https://paperswithcode.com/sota/audio-captioning-on-clotho?p=qwen-audio-advancing-universal-audio) <br>
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/qwen-audio-advancing-universal-audio/speech-recognition-on-librispeech-test-clean)](https://paperswithcode.com/sota/speech-recognition-on-librispeech-test-clean?p=qwen-audio-advancing-universal-audio)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/qwen-audio-advancing-universal-audio/emotion-recognition-in-conversation-on-meld)](https://paperswithcode.com/sota/emotion-recognition-in-conversation-on-meld?p=qwen-audio-advancing-universal-audio)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/qwen-audio-advancing-universal-audio/speech-recognition-on-librispeech-test-other)](https://paperswithcode.com/sota/speech-recognition-on-librispeech-test-other?p=qwen-audio-advancing-universal-audio)
 
-**Qwen-Audio** (Qwen Large Audio Language Model) is the multimodal version of the large model series, Qwen (abbr. Tongyi Qianwen), proposed by Alibaba Cloud. Qwen-Audio accepts diverse audio (human speech, natural sound, music and song) and text as inputs, outputs text. The contribution of Qwen-Audio include:
+**Qwen-Audio** 是阿里云研发的大规模音频语言模型（Large Audio Language Model）。Qwen-Audio 可以以多种音频 (包括说话人语音、自然音、音乐、歌声）和文本作为输入，并以文本作为输出。Qwen-Audio 系列模型的特点包括：
 
-- **Fundamental audio models**: Qwen-Audio is a fundamental multi-task audio-language model that supports various tasks, languages, and audio types, serving as a universal audio understanding model. Building upon Qwen-Audio, we develop Qwen-Audio-Chat through instruction fine-tuning, enabling multi-turn dialogues and supporting diverse audio-oriented scenarios.
-- **Multi-task learning framework for all types of audios**: To scale up audio-language pre-training, we address the challenge of variation in textual labels associated with different datasets by proposing a multi-task training framework, enabling knowledge sharing and avoiding one-to-many interference. Our model incorporates more than 30 tasks and extensive experiments show the model achieves strong performance.
-- **Strong Performance**: Experimental results show that Qwen-Audio achieves impressive performance across diverse benchmark tasks without requiring any task-specific fine-tuning, surpassing its counterparts. Specifically, Qwen-Audio achieves state-of-the-art results on the test set of Aishell1, cochlscene, ClothoAQA, and VocalSound.
-- **Flexible multi-run chat from audio and text input**: Qwen-Audio supports multiple-audio analysis, sound understanding and reasoning, music appreciation, and tool usage.
+- **音频基石模型**：Qwen-Audio是一个性能卓越的通用的音频理解模型，支持各种任务、语言和音频类型。在Qwen-Audio的基础上，我们通过指令微调开发了Qwen-Audio-Chat，支持多轮、多语言、多语言对话。Qwen-Audio和Qwen-Audio-Chat模型均已开源。
+- **兼容多种复杂音频的多任务学习框架**：为了避免由于数据收集来源不同以及任务类型不同，带来的音频到文本的一对多的干扰问题，我们提出了一种多任务训练框架，实现相似任务的知识共享，并尽可能减少不同任务之间的干扰。通过提出的框架，Qwen-Audio可以容纳训练超过30多种不同的音频任务；
+- **出色的性能**：Qwen-Audio在不需要任何任务特定的微调的情况下，在各种基准任务上取得了领先的结果。具体得，Qwen-Audio在Aishell1、cochlscene、ClothoAQA和VocalSound的测试集上都达到了SOTA；
+- **支持多轮音频和文本对话，支持各种语音场景**：Qwen-Audio-Chat支持声音理解和推理、音乐欣赏、多音频分析、多轮音频-文本交错对话以及外部语音工具的使用。
 
 <br>
 <p align="center">
@@ -42,33 +41,33 @@
 <br>
 
 
-We release two models of the Qwen-Audio series soon:
+我们提供了 Qwen-Audio 系列的两个模型：
+- Qwen-Audio: Qwen-Audio 以 [Qwen-7B](https://github.com/QwenLM/Qwen) 的预训练模型作为语言模型的初始化，并以 [Whisper-large-v2](https://github.com/openai/whisper) 作为音频编码器的初始化。
+- Qwen-Audio-Chat: 在 Qwen-Audio 的基础上，我们使用对齐机制打造了基于大语言模型的语音AI助手Qwen-Audio-Chat，它支持更灵活的交互方式，包括多音频、多轮问答、创作等能力。
+  <br>
 
-- Qwen-Audio: The pre-trained multi-task audio understanding model uses Qwen-7B as the initialization of the LLM, and [Whisper-large-v2](https://github.com/openai/whisper) as the initialization of the audio encoder.
-- Qwen-Audio-Chat: A multimodal LLM-based AI assistant, which is trained with alignment techniques. Qwen-Audio-Chat supports more flexible interaction, such as multiple audio inputs, multi-round question answering, and creative capabilities.
+## 新闻
+* 2023.11.30 🔥 **Qwen-Audio**和**Qwen-Audio-Chat**的模型权重已经在Hugging Face和ModelScope开源。
+* 2023.11.15 🎉 我们发布了Qwen-Audio系列模型的[论文](http://arxiv.org/abs/2311.07919), 介绍了相关的模型结构，训练方法和模型表现。
 <br>
 
-## News and Updates
-* 2023.11.30 🔥 We have released the checkpoints of both **Qwen-Audio** and **Qwen-Audio-Chat** on ModelScope and Hugging Face.
-* 2023.11.15 🎉 We released a [paper](http://arxiv.org/abs/2311.07919) for details about Qwen-Audio and Qwen-Audio-Chat model, including training details and model performance.
+## 评测
+我们在标准的12个学术数据集上评测了模型的能力
 
-<br>
-
-## Evaluation
-We evaluated the Qwen-Audio's abilities on 12 standard benchmarks as follows:
 <p align="center">
     <img src="assets/evaluation.png" width="800"/>
 <p>
 
 
-The below is the overal performance：
+综合评测结果如下：
 <p align="center">
     <img src="assets/radar_new.png" width="800"/>
 <p>
 
 
-The details of evaluation are as follows:
-### Automatic Speech Recognition
+各项指标细节如下:
+### 中英文语音识别（Automatic Speech Recognition）
+英文语音识别
 <table>
 <thead>
 <tr>
@@ -123,6 +122,7 @@ The details of evaluation are as follows:
   </tr>
 </table>
 
+中文语音识别
 
 <table>
 <thead>
@@ -198,7 +198,7 @@ The details of evaluation are as follows:
   </tr>
 </table>
 
-### Soeech-to-text Translation
+### 语音翻译（Soeech-to-text Translation）
 <table>
 <thead>
 <tr>
@@ -261,7 +261,8 @@ The details of evaluation are as follows:
   </tr>
 </table>
 
-### Automatic Audio Caption
+### 语音标题生成（Automatic Audio Caption）
+Clotho
 
 <table>
 <thead>
@@ -294,7 +295,7 @@ The details of evaluation are as follows:
 </table>
 
 
-### Speech Recognition with Word-level Timestamp
+### 带词级别时间戳的语音识别（Speech Recognition with Word-level Timestamp）
 <table>
 <thead>
 <tr>
@@ -321,7 +322,7 @@ The details of evaluation are as follows:
 </table>
 
 
-### Automatic Scene Classification
+### 音频场景分类（Automatic Scene Classification）
 <table>
 <thead>
 <tr>
@@ -353,7 +354,7 @@ The details of evaluation are as follows:
 </table>
 
 
-### Speech Emotion Recognition
+### 语音情绪识别（Speech Emotion Recognition）
 <table>
 <thead>
 <tr>
@@ -376,7 +377,9 @@ The details of evaluation are as follows:
 </table>
 
 
-### Audio Question & Answer
+### 基于音频的问答（Audio Question & Answer）
+ClothoAQA
+
 <table>
 <thead>
 <tr>
@@ -409,7 +412,7 @@ The details of evaluation are as follows:
   </tr>
 </table>
 
-### Vocal Sound Classification
+### 语音分类（Vocal Sound Classification）
 
 <table>
 <thead>
@@ -437,7 +440,7 @@ The details of evaluation are as follows:
 </table>
 
 
-### Music Note Analysis
+### 音符分析（Music Note Analysis）
 <table>
 <thead>
 <tr>
@@ -462,34 +465,35 @@ The details of evaluation are as follows:
   </tr>
 </table>
 
-We have provided **all** evaluation scripts to reproduce our results. Please refer to [eval_audio/EVALUATION.md](eval_audio/EVALUATION.md) for details.
+我们提供了以上**所有**评测脚本以供复现我们的实验结果。请阅读 [eval_audio/EVALUATION.md](eval_audio/EVALUATION.md) 了解更多信息。
 
-### Evaluation of Chat
-To evaluate the chat abilities of Qwen-Audio-Chat, we provide [TUTORIAL](TUTORIAL.md) and demo for users. 
+### 闲聊能力测评
 
-## Requirements
+受限于学术领域缺乏系统性的Chat类的Audio模型的评测方法, 我们主要提供了演示案例[TUTORIAL](TUTORIAL_zh.md)和Demo供调用。Qwen-Audio-Chat可以被广泛用于语音识别，语音翻译，环境音理解，多音频理解，语音定位以及外部语音编辑模型调用等功能。
 
-* python 3.8 and above
-* pytorch 1.12 and above, 2.0 and above are recommended
-* CUDA 11.4 and above are recommended (this is for GPU users)
+
+## 部署要求
+
+* python 3.8及以上版本
+* pytorch 1.12及以上版本，推荐2.0及以上版本
+* 建议使用CUDA 11.4及以上（GPU用户需考虑此选项）
 * FFmpeg
 <br>
+## 快速使用
 
-## Quickstart
+我们提供简单的示例来说明如何利用 🤖 ModelScope 和 🤗 Transformers 快速使用 Qwen-Audio 和 Qwen-Audio-Chat。
 
-Below, we provide simple examples to show how to use Qwen-Audio and Qwen-Audio-Chat with 🤖 ModelScope and 🤗 Transformers.
-
-Before running the code, make sure you have setup the environment and installed the required packages. Make sure you meet the above requirements, and then install the dependent libraries.
+在开始前，请确保你已经配置好环境并安装好相关的代码包。最重要的是，确保你满足上述要求，然后安装相关的依赖库。
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Now you can start with ModelScope or Transformers. For more usage, please refer to the [tutorial](TUTORIAL.md). Qwen-Audio models currently perform best with audio clips under 30 seconds.
+接下来你可以开始使用Transformers或者ModelScope来使用我们的模型。关于更多用法，请参考[教程](TUTORIAL_zh.md)。目前Qwen-Audio以及Qwen-Audio-Chat模型处理30秒以内的音频表现更佳。
 
 #### 🤗 Transformers
 
-To use Qwen-Audio-Chat for the inference, all you need to do is to input a few lines of codes as demonstrated below. However, **please make sure that you are using the latest code.**
+如希望使用 Qwen-Audio-Chat 进行推理，所需要写的只是如下所示的数行代码。**请确保你使用的是最新代码。**
 
 ```python
 from transformers import AutoModelForCausalLM, AutoTokenizer
@@ -497,22 +501,22 @@ from transformers.generation import GenerationConfig
 import torch
 torch.manual_seed(1234)
 
-# Note: The default behavior now has injection attack prevention off.
+# 请注意：分词器默认行为已更改为默认关闭特殊token攻击防护。
 tokenizer = AutoTokenizer.from_pretrained("Qwen/Qwen-Audio-Chat", trust_remote_code=True)
 
-# use bf16
+# 打开bf16精度，A100、H100、RTX3060、RTX3070等显卡建议启用以节省显存
 # model = AutoModelForCausalLM.from_pretrained("Qwen/Qwen-Audio-Chat", device_map="auto", trust_remote_code=True, bf16=True).eval()
-# use fp16
+# 打开fp16精度，V100、P100、T4等显卡建议启用以节省显存
 # model = AutoModelForCausalLM.from_pretrained("Qwen/Qwen-Audio-Chat", device_map="auto", trust_remote_code=True, fp16=True).eval()
-# use cpu only
+# 使用CPU进行推理，需要约32GB内存
 # model = AutoModelForCausalLM.from_pretrained("Qwen/Qwen-Audio-Chat", device_map="cpu", trust_remote_code=True).eval()
-# use cuda device
+# 默认gpu进行推理，需要约24GB显存
 model = AutoModelForCausalLM.from_pretrained("Qwen/Qwen-Audio-Chat", device_map="cuda", trust_remote_code=True).eval()
 
-# Specify hyperparameters for generation (No need to do this if you are using transformers>4.32.0)
+# 可指定不同的生成长度、top_p等相关超参（transformers 4.32.0及以上无需执行此操作）
 # model.generation_config = GenerationConfig.from_pretrained("Qwen/Qwen-Audio-Chat", trust_remote_code=True)
 
-# 1st dialogue turn
+# 第一轮对话
 query = tokenizer.from_list_format([
     {'audio': 'assets/audio/1272-128104-0000.flac'}, # Either a local path or an url
     {'text': 'what does the person say?'},
@@ -521,13 +525,18 @@ response, history = model.chat(tokenizer, query=query, history=None)
 print(response)
 # The person says: "mister quilter is the apostle of the middle classes and we are glad to welcome his gospel".
 
-# 2nd dialogue turn
+# 第二轮对话
 response, history = model.chat(tokenizer, 'Find the start time and end time of the word "middle classes"', history=history)
 print(response)
 # The word "middle classes" starts at <|2.33|> seconds and ends at <|3.26|> seconds.
+
 ```
 
-Running Qwen-Audio pretrained base model is also simple.
+
+
+运行Qwen-Audio同样非常简单。
+
+<summary>运行Qwen-Audio</summary>
 
 ```python
 from transformers import AutoModelForCausalLM, AutoTokenizer
@@ -537,16 +546,16 @@ torch.manual_seed(1234)
 
 tokenizer = AutoTokenizer.from_pretrained("Qwen/Qwen-Audio", trust_remote_code=True)
 
-# use bf16
+# 打开bf16精度，A100、H100、RTX3060、RTX3070等显卡建议启用以节省显存
 # model = AutoModelForCausalLM.from_pretrained("Qwen/Qwen-Audio", device_map="auto", trust_remote_code=True, bf16=True).eval()
-# use fp16
+# 打开fp16精度，V100、P100、T4等显卡建议启用以节省显存
 # model = AutoModelForCausalLM.from_pretrained("Qwen/Qwen-Audio", device_map="auto", trust_remote_code=True, fp16=True).eval()
-# use cpu only
+# 使用CPU进行推理，需要约32GB内存
 # model = AutoModelForCausalLM.from_pretrained("Qwen/Qwen-Audio", device_map="cpu", trust_remote_code=True).eval()
-# use cuda device
+# 默认gpu进行推理，需要约24GB显存
 model = AutoModelForCausalLM.from_pretrained("Qwen/Qwen-Audio", device_map="cuda", trust_remote_code=True).eval()
 
-# Specify hyperparameters for generation (No need to do this if you are using transformers>4.32.0)
+# 可指定不同的生成长度、top_p等相关超参（transformers 4.32.0及以上无需执行此操作）
 # model.generation_config = GenerationConfig.from_pretrained("Qwen/Qwen-Audio", trust_remote_code=True)
 audio_url = "assets/audio/1272-128104-0000.flac"
 sp_prompt = "<|startoftranscription|><|en|><|transcribe|><|en|><|notimestamps|><|wo_itn|>"
@@ -558,10 +567,11 @@ pred = model.generate(**inputs, audio_info=audio_info)
 response = tokenizer.decode(pred.cpu()[0], skip_special_tokens=False,audio_info=audio_info)
 print(response)
 # <audio>assets/audio/1272-128104-0000.flac</audio><|startoftranscription|><|en|><|transcribe|><|en|><|notimestamps|><|wo_itn|>mister quilting is the apostle of the middle classes and we are glad to welcome his gospel<|endoftext|>
+# 
 ```
 
 
-In the event of a network issue while attempting to download model checkpoints and codes from Hugging Face, an alternative approach is to initially fetch the checkpoint from ModelScope and then load it from the local directory as outlined below:
+若在使用上述代码时由于各种原因无法从 Hugging Face 拉取模型和代码，可以先从 ModelScope 下载模型及代码至本地，再从本地加载模型：
 
 ```python
 from modelscope import snapshot_download
@@ -584,7 +594,7 @@ model = AutoModelForCausalLM.from_pretrained(
 
 #### 🤖 ModelScope
 
-ModelScope is an opensource platform for Model-as-a-Service (MaaS), which provides flexible and cost-effective model service to AI developers. Similarly, you can run the models with ModelScope as shown below:
+魔搭（ModelScope）是开源的模型即服务共享平台，为泛AI开发者提供灵活、易用、低成本的一站式模型服务产品。使用ModelScope同样非常简单，代码如下所示：
 
 ```python
 from modelscope import (
@@ -600,16 +610,16 @@ torch.manual_seed(1234)
 tokenizer = AutoTokenizer.from_pretrained(model_dir, trust_remote_code=True)
 if not hasattr(tokenizer, 'model_dir'):
     tokenizer.model_dir = model_dir
-# use bf16
+# 打开bf16精度，A100、H100、RTX3060、RTX3070等显卡建议启用以节省显存
 # model = AutoModelForCausalLM.from_pretrained(model_dir, device_map="auto", trust_remote_code=True, bf16=True).eval()
-# use fp16
+# 打开fp16精度，V100、P100、T4等显卡建议启用以节省显存
 # model = AutoModelForCausalLM.from_pretrained(model_dir, device_map="auto", trust_remote_code=True, fp16=True).eval()
-# use CPU
+# 使用CPU进行推理，需要约32GB内存
 # model = AutoModelForCausalLM.from_pretrained(model_dir, device_map="cpu", trust_remote_code=True).eval()
-# use gpu
+# 默认gpu进行推理，需要约24GB显存
 model = AutoModelForCausalLM.from_pretrained(model_dir, device_map="auto", trust_remote_code=True).eval()
 
-# 1st dialogue turn
+# 第一轮对话
 query = tokenizer.from_list_format([
     {'audio': 'assets/audio/1272-128104-0000.flac'}, # Either a local path or an url
     {'text': 'what does the person say?'},
@@ -618,47 +628,57 @@ response, history = model.chat(tokenizer, query=query, history=None)
 print(response)
 # The person says: "mister quilter is the apostle of the middle classes and we are glad to welcome his gospel".
 
-# 2st dialogue turn
+# 第二轮对话
 response, history = model.chat(tokenizer, 'Find the start time and end time of the word "middle classes"', history=history)
 print(response)
 # The word "middle classes" starts at <|2.33|> seconds and ends at <|3.26|> seconds.
 ```
 
+<br>
+
 ## Demo
 
 ### Web UI
 
-We provide code for users to build a web UI demo. Before you start, make sure you install the following packages:
+我们提供了Web UI的demo供用户使用。在开始前，确保已经安装如下代码库：
 
 ```
 pip install -r requirements_web_demo.txt
 ```
 
-Then run the command below and click on the generated link:
+随后运行如下命令，并点击生成链接：
 
 ```
 python web_demo_audio.py
 ```
+
 <br>
 
 ## FAQ
 
-If you meet problems, please refer to [FAQ](FAQ.md) and the issues first to search a solution before you launch a new issue.
+如遇到问题，敬请查阅 [FAQ](FAQ_zh.md)以及issue区，如仍无法解决再提交issue。
 <br>
 
-## We Are Hiring
 
-If you are interested in joining us as full-time or intern, please contact us at qwen_audio@list.alibaba-inc.com.
+## 团队招聘
+
+我们是通义千问语音多模态团队，致力于以通义千问为核心，拓展音频多模态理解和生成能力，实现自由灵活的音频交互。目前团队蓬勃发展中，如有意向实习或全职加入我们，请发送简历至qwen_audio@list.alibaba-inc.com.
 <br>
 
-## License Agreement
+## 使用协议
 
-Researchers and developers are free to use the codes and model weights of both Qwen-Audio and Qwen-Audio-Chat. We also allow their commercial use. Check our license at [LICENSE](LICENSE) for more details.
+研究人员与开发者可使用Qwen-Audio和Qwen-Audio-Chat或进行二次开发。我们同样允许商业使用，具体细节请查看[LICENSE](LICENSE)。如需商用，请填写[问卷](https://dashscope.console.aliyun.com/openModelApply/qianwen)申请。
 <br>
 
-## Citation
+## 联系我们
 
-If you find our paper and code useful in your research, please consider giving a star :star: and citation :pencil: :)
+如果你想给我们的研发团队和产品团队留言，请通过邮件（qianwen_opensource@alibabacloud.com）联系我们。
+<br>
+
+
+## 引用
+
+如果你觉得我们的论文和代码对你的研究有帮助，请考虑:star: 和引用 :pencil: :)
 
 ```BibTeX
 @article{Qwen-Audio,
@@ -668,9 +688,3 @@ If you find our paper and code useful in your research, please consider giving a
   year={2023}
 }
 ```
-<br>
-
-## Contact Us
-
-If you are interested to leave a message to either our research team or product team, feel free to send an email to qianwen_opensource@alibabacloud.com.
-
